@@ -13,6 +13,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage" : "http://twgd.github.io/gomoku-react",
   "eslintConfig": {
     "extends": "react-app"
   },
