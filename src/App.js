@@ -67,7 +67,7 @@ class App extends React.Component {
                     </div>
                     <div className="game__field">
                         <div className="game__board__bg">
-                            {block.map((item,index)=>
+                            {block.map((item, index)=>
                                 <div className="block" key={index}>{item}</div>
                             )}
                         </div>
@@ -107,19 +107,21 @@ function winnerIs(squares) {
 		[2, 21, 40, 59, 78],
 		[3, 22, 41, 60, 79],
 		[4, 23, 42, 61, 80],
-		[0, 20, 40 , 60, 80],
+		[0, 20, 40, 60, 80],
 		[4, 22, 40, 58, 76],
     ];
     
-    for(let i=0; i<=14; i++) {  // 5*5 棋盤連線橫向掃描
+    for(let i = 0; i <= 14; i++) {  // 5*5 棋盤連線橫向掃描
 
-        for(let j=0; j<=14; j++) {  // 5*5 棋盤連線直向掃描
-            const newlines = lines.map((line)=>{
-                const newline = line.map((num)=>num+(i*19)+j)
+        for(let j = 0; j <= 14; j++) {  // 5*5 棋盤連線直向掃描
+            const newlines = lines.map((line) => {
+                const newline = line.map((num) => num + (i*19) +j)
                 return newline;
             });
+
+            //console.log(newlines);
             
-            for(let k = 0; k<newlines.length; k++) { // 掃描 12 種連線
+            for(let k = 0; k < newlines.length; k++) { // 掃描 12 種連線
                 const [a, b, c, d, e] = newlines[k]
                 if(
                     squares[a]
