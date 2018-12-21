@@ -1,13 +1,53 @@
+.game__field {
+    position: relative;
+}
+
+.game__board__bg {
+    height: 342px;
+    width: 342px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:9.5px;
+    left:9.5px;
+    z-index: -100;
+}
+
+.block {
+    height: 19px;
+    width: 19px;
+    box-sizing: border-box;
+    border:0.1px solid black;
+}
+
 .game__board {
-    height: 310px;
-    width: 310px;
+    height: 361px;
+    width: 361px;
+    border:0.1px solid black;
     display: flex;
     flex-wrap: wrap;
 }
 
 .square {
+    height: 19px;
+    width: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
     height: 15px;
     width: 15px;
-    font-size: 5px;
+    border-radius: 50%;
+    background: black;
+}
+
+.white {
+    height: 15px;
+    width: 15px;
     box-sizing: border-box;
+    border:0.5px solid black;
+    background: white;
+    border-radius: 50%;
 }
