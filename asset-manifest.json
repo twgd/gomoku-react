@@ -1,13 +1,13 @@
 {
-  "main.css": "/gomoku-react/static/css/main.4db68af1.chunk.css",
-  "main.js": "/gomoku-react/static/js/main.a042bd7e.chunk.js",
-  "main.js.map": "/gomoku-react/static/js/main.a042bd7e.chunk.js.map",
+  "main.css": "/gomoku-react/static/css/main.c3409084.chunk.css",
+  "main.js": "/gomoku-react/static/js/main.5968b954.chunk.js",
+  "main.js.map": "/gomoku-react/static/js/main.5968b954.chunk.js.map",
   "static/js/1.ccde91d8.chunk.js": "/gomoku-react/static/js/1.ccde91d8.chunk.js",
   "static/js/1.ccde91d8.chunk.js.map": "/gomoku-react/static/js/1.ccde91d8.chunk.js.map",
   "runtime~main.js": "/gomoku-react/static/js/runtime~main.9c458845.js",
   "runtime~main.js.map": "/gomoku-react/static/js/runtime~main.9c458845.js.map",
-  "static/css/main.4db68af1.chunk.css.map": "/gomoku-react/static/css/main.4db68af1.chunk.css.map",
+  "static/css/main.c3409084.chunk.css.map": "/gomoku-react/static/css/main.c3409084.chunk.css.map",
   "index.html": "/gomoku-react/index.html",
-  "precache-manifest.e709cc36ae0c2733cff3e04bf550286f.js": "/gomoku-react/precache-manifest.e709cc36ae0c2733cff3e04bf550286f.js",
+  "precache-manifest.68415d6e148ee68362054de86d9b086f.js": "/gomoku-react/precache-manifest.68415d6e148ee68362054de86d9b086f.js",
   "service-worker.js": "/gomoku-react/service-worker.js"
 }
